@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 여행</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top py-md-2 py-lg-3 py-xl-4">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">오늘의 여행</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-4 text-center">
+                    <a class="nav-link" aria-current="page" href="#">항공</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#">호텔</a>
+                </li>
+                <li class="nav-item dropdown mx-4 text-center">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        패키지
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">안심 여행</a></li>
+                    <li><a class="dropdown-item" href="#">자가격리 면제 지역</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">국내 여행</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-2 text-center">
+                    <a class="nav-link">로그인</a>
+                </li>
+                <li class="nav-item ms-md-4">
+                    <a class="nav-link btn btn-outline-secondary rounded-pill px-3" href="#">회원가입</a>
+                </li>
+                </ul>                
+            </div>
+        </div>
+    </nav> 
+    <div class="text-center text-white">
+        <h2>당신의 여행을<br class="d-lg-none"> 계획해보세요</h2>
+        <h4 class="mb-5 mb-md-0">원하는 여행을 찾아보세요</h4>
+        <div class="d-none d-md-block m-md-3 m-lg-5"></div>
+    </div>
+</header>
+
+<!-- 첫번째 section START -->
+<section class="border-bottom">
+    <div class="container-xl">
+        <div class="row justify-content-center">
+            <div class="center col-md-6 col-lg-7 text-center text-md-start">
+                <h2 class="package">당신이 찾는 <br><strong>여행 패키지</strong></h2> 
+                <p>국내부터 해외까지 당신이 만족할 여행 패키지가 준비되어 있습니다</p>
+                <p>원하는 여행 패키지를 찾고 새로운 세상으로 떠나 휴식을 취해보세요</p>
+                <br>
+                <img src="img/bg2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 첫번째 section END -->
+        
+<!-- 두번째 section START -->
+<section class="border-bottom">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-5 col-lg-7 d-flex align-items-center justify-content-center">
+                <img src="img/slide-2-bg.jpg" alt="">
+            </div>
+            <div class="col-md-7 col-lg-5 text-center text-md-start">
+                <br>
+                <h2>최고의 숙박 시설에서</strong><br>편안한 휴식을</h2> 
+                <p>현지에 있는 최고의 숙박 시설을 확인하고 원하는 곳을 예약해보세요</p>
+                <p><strong>숙박 시설의 리뷰를 확인하고 작성할 수도 있습니다</p>
+                <button class="btn btn-secondary bg-gradient rounded-pill mt-3">호텔 알아보기</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 두번째 section END -->
+
+<!-- 세번째 section START -->
+<section class="border-bottom">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-7 col-lg-5 text-center text-md-start">
+                <h2><strong>원하는 시간대에</strong><br>가장 빠르게 도착하세요</h2> 
+                <p>당신이 원하는 시간대에 최단 시간으로 목적지에 도착할 수 있는 비행기를 찾아드립니다</p>
+                <p>오늘의 여행에서 비행기 시간까지 한번에 확인하세요</p>
+            </div>
+            <div class="col-md-5 col-lg-7 d-flex align-items-center justify-content-center">
+                <img src="img/slide-3-bg.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 세번째 section END -->
+
+<!-- #app START-->
+<section class="d-none d-sm-block" id="app">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="img/ticket.svg" alt="티켓">
+                <h3>여행 패키지</h3>
+                <p>가이드와 함께 또는<br>다양한 여행지를 한번에 여행하세요</p>
+                <a href="#" class="btn btn-outline-secondary rounded-pill">더 알아보기</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/airplane.svg" alt="비행기">
+                <h3>가장 안전한 여행지</h3>
+                <p>국내와 해외의 현지 상황을 고려하여<br>여러분의 안전한 여행을 도와드립니다</p>
+                <a href="#" class="btn btn-outline-secondary rounded-pill">더 알아보기</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/review.svg" alt="리뷰">
+                <h3>리뷰</h3>
+                <p>여행 후에 리뷰를 남겨 다른 사람들과<br>추억을 나누어보세요</p>
+                <a href="#" class="btn btn-outline-secondary rounded-pill">더 알아보기</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- #app END -->
+
+<div class="outro bg-dark">
+    <div class="container-fluid">
+        <div class="text-center">
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center d-table">
+                <div class="d-table-cell align-middle">
+                    <h3 class="text-white">오늘의 여행을 함께하세요</h3> 
+                    <p class="text-secondary mb-md-5">사이트에 가입하고 언제든 휴식을 찾아보세요</p>
+                    <a href="#" class="btn btn-primary bg-gradient rounded-pill">무료로 회원가입</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-md-start">
+                <a class="text-white fs-4" href="#">오늘의 여행</a>
+                <p class="mt-3 fs-6">당신의 휴식을 계획하는 곳</p>
+            </div>
+            <div class="col-2 d-none d-md-block">
+                <h3 class="">호텔</h3>
+                <ul class="">
+                    <li><a href="#">최저가 호텔</a></li>
+                    <li><a href="#">인기 호텔</a></li>
+                </ul>
+            </div>
+            <div class="col-2 d-none d-md-block">
+                <h3 class="">패키지</h3>
+                <ul class="">
+                    <li><a href="#">안심 여행</a></li>
+                    <li><a href="#">자가격리 제외 여행</a></li>
+                </ul>
+            </div>
+            <div class="col-2 d-none d-md-block">
+                <h3 class="">언어</h3>
+                <ul class="">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">日本語</a></li>
+                </ul>
+            </div>
+            <div class="col-2 d-none d-md-block sns">
+                <h3 class="">Follow us</h3>
+                <p class="">
+                    <a href="#" class=""><i class="bi bi-google"></i></a>
+                    <a href="#" class=""><i class="bi bi-twitter"></i></a>
+                    <a href="#" class=""><i class="bi bi-youtube"></i></a>
+                    <a href="#" class=""><i class="bi bi-behance"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
